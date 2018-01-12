@@ -13,7 +13,7 @@ import java.util.Properties;
   
 /** 
  * 采用MD5加密解密 
- * @author tfq 
+ * @author tfq
  * @datetime 2011-10-13 
  */  
 public class MD5Util {  
