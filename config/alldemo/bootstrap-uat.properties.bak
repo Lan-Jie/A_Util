@@ -21,4 +21,4 @@ spring.cloud.config.profile=uat
 #git仓库分支
 spring.cloud.config.label=develop
 
-from=lanwweijie-uat
+from=lanwweijie

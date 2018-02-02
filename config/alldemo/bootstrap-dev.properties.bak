@@ -7,7 +7,7 @@ eureka.instance.preferIpAddress=true
 security.user.name=eureka
 security.user.password=eureka!001
 #本机环境
-eureka.client.serviceUrl.defaultZone=http://${security.user.name}:${security.user.password}@10.0.0.7:6100/eureka/,http://${security.user.name}:${security.user.password}@10.0.0.8:6100/eureka/,http://${security.user.name}:${security.user.password}@10.0.0.9:6100/eureka/
+eureka.client.serviceUrl.defaultZone=http://${security.user.name}:${security.user.password}@127.0.0.1:6100/eureka/
 
 #热加载
 spring.devtools.livereload.enabled=true
@@ -17,8 +17,8 @@ spring.devtools.livereload.enabled=true
 spring.cloud.config.discovery.enabled=true
 #配置中心服务ID
 spring.cloud.config.discovery.serviceId=linkfin-config
-spring.cloud.config.profile=uat
+spring.cloud.config.profile=dev
 #git仓库分支
 spring.cloud.config.label=develop
 
-from=lanwweijie-uat
+from=lanwweijie
