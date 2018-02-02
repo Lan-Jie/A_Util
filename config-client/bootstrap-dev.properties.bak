@@ -1,6 +1,6 @@
 #优先于application.properties文件加载
 spring.application.name=eac-bocom-trans
-server.port=7003
+server.port=9034
 eureka.client.healthcheck.enable=true
 eureka.instance.preferIpAddress=true
 #开启注册中心用户密码验证功能
