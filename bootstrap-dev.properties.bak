@@ -1,6 +1,6 @@
 #优先于application.properties文件加载
 
-server.port=7002
+
 
 
 from=lanwweijie-dev
